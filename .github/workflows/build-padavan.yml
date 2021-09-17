@@ -36,7 +36,7 @@ jobs:
         cd /opt/rt-n56u/toolchain-mipsel
         #sh dl_toolchain.sh
         
-        build_toolchain_3.4.x
+        sh build_toolchain_3.4.x
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
